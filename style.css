@@ -192,9 +192,9 @@ span {
 .langu p {
     min-width: 100px;
     padding: 15px 20px;
-    border: solid 2px 494949;
+    border: solid 2px #494949;
     background-color: #303030;
-    color: E0E0E0;
+    color: #E0E0E0;
     font-size: 15px;
     border-radius: 10px;
     margin-bottom: 20px;

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <header class="head">
+        <h1>My Personal Website</h1>
+        <p>Welcome to my Personal Student portal</p>
+    </header>
+
+    <nav class="navi">
+        <a href="Home.html">Home</a>
+        <a href="Registration.html">Registration</a>
+        <a href="Grades.html">Grades</a>
+        <a href="proile.html">Profile</a>
+    </nav>
+
+    <form action="">
+        <h1>Student Registration</h1> <br>
+        <span>Student Name:</span> <br> <input class="in" type="text" name="" placeholder="Enter Name" /> <br><br>
+        <span>Email</span> <br> <input class="in" type="text" name="" placeholder="Enter Email" /> <br> <br>
+        <span>Password</span> <br> <input class="in" type="password" placeholder="Enter Password"> <br><br>
+        <span>Gender</span> <br><br>
+        <input type="radio" name="Sex" value="Male"> Male
+        <input type="radio" name="Sex" value="Female"> Female <br><br>
+        <span>Course</span> <br>
+        <select name="dropdown">
+        <option value="placehlder"  disabled selected>Select Course</option> <br><br>
+        <option value="BSIT">BSIT</option>
+        <option value="BSCS">BSCS</option>
+        <option value="BSHM">BSHM</option>
+        <option value="BSTM">BSTM</option>
+        <option value="BECED">BECED</option>
+        </select> <br> 
+        <br><span>Skills</span> <br> <br>
+        <input type="checkbox" name="Fav" value="on"> HTML
+        <input type="checkbox" name="Fav" value="on"> CSS
+        <input type="checkbox" name="Fav" value="on"> JavaScript <br><br>
+        <span>Profile Picture</span><br><br>
+        <input type="file" name="fileupload" accept="image/*" />
+        <br><br>
+        <span>Address</span><br>
+        <textarea rows="5" cols="50" name="description" placeholder=” Enter description here...”></textarea><br><br>
+        <input class="btn" type="submit" name="submit" value="Submit" /> <br>
+        <input class="btn" type="reset" name="reset"  value="Reset" />
+    </form>
+    <footer>
+        <h4>Website copyright@2030</h4>
+    </footer>
+</body>
+</html>
